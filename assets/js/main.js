@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $(".colas").click(function(){
-        $(".navlist").toggleClass("active")
+        $(".navlist").toggleClass("active");
+        $(".colas").toggleClass("active")
+
     })
 });
 $('.owl-carousel').owlCarousel({
