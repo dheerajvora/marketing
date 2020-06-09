@@ -177,7 +177,8 @@ button:focus {
           transform: translate(-50%, -50%);
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background: #fff;
 }
 
@@ -253,5 +254,43 @@ h1.form-title {
 
 h1.form-title span {
   color: #e66d64;
+}
+
+.colas.active {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.colas.active .nav-bar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.colas.active .nav-bar span:nth-last-of-type(1) {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.colas.active .nav-bar span:nth-last-of-type(2) {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  left: 100px;
+  margin: 0;
+}
+
+.colas.active .nav-bar span:nth-last-of-type(3) {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
 }
 /*# sourceMappingURL=style.css.map */
